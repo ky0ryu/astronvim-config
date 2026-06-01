@@ -33,6 +33,7 @@ return {
         "prettier",
         "stylua",
         "shfmt",
+        "gofumpt",
 
         "ruff",
 

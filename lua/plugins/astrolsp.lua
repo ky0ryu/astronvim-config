@@ -20,7 +20,7 @@ return {
       format_on_save = {
         enabled = true, -- enable or disable format on save globally
         allow_filetypes = { -- enable format on save for specified filetypes only
-          -- "go",
+          "go",
         },
         ignore_filetypes = { -- disable format on save for specified filetypes
           -- "python",
@@ -57,6 +57,21 @@ return {
               typeCheckingMode = "basic",
               autoImportCompletions = true,
             },
+          },
+        },
+      },
+      gopls = {
+        settings = {
+          gopls = {
+            -- Enable advanced features
+            analyses = {
+              unusedparams = true,
+              shadow = true,
+            },
+            staticcheck = true,
+            gofumpt = true, -- Uses gofumpt formatting if installed
+            completeUnimported = true,
+            usePlaceholders = true,
           },
         },
       },
