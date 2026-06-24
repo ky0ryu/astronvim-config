@@ -42,8 +42,8 @@ return {
         end,
       },
       -- Move snippet jump
-      ["<S-l>"] = { "accept", "snippet_forward", "fallback" },
-      ["<S-h>"] = { "snippet_backward", "fallback" },
+      ["<S-Tab>"] = { "accept", "snippet_forward", "fallback" },
+      -- ["<Tab>"] = { "snippet_backward", "fallback" },
     },
     completion = {
       list = { selection = { preselect = true, auto_insert = true } },
