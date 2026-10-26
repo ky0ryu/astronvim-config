@@ -26,7 +26,7 @@ mv ~/.config/nvim ~/.config/nvim.bak
 - **Clone the repository**
 
 ```sh
-git clone https://github.com/kabinspace/AstroNvim_user ~/.config/nvim
+git clone https://github.com/ky0ryu/video-stream-service ~/.config/nvim
 ```
 
 - **Initialize AstroNvim**
